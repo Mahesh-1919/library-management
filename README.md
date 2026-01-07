@@ -185,6 +185,8 @@ Example validation error:
     { "field": "email", "message": "Email is missing" }
   ]
 }
+```
+
 This ensures consistent behavior across the entire system.
 
 ## REST APIs
@@ -267,3 +269,4 @@ JWT_SECRET=your_super_secret_key
 
 
 npm run dev
+```
