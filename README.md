@@ -253,8 +253,8 @@ GraphQL is implemented using **Apollo Server** and provides **feature parity wit
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
-cd nalanda-library-backend
+git clone https://github.com/Mahesh-1919/library-management.git
+cd library-management
 
 npm install
 
