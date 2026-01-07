@@ -38,57 +38,55 @@ The project is designed to be **clean, scalable, and production-ready**, not jus
 
 ## Project Structure
 
+```
 src/
 ├── app.js
 ├── server.js
 │
 ├── config/
-│ └── db.js
+│   └── db.js
 │
 ├── models/
-│ ├── User.model.js
-│ ├── Book.model.js
-│ └── Borrow.model.js
+│   ├── User.model.js
+│   ├── Book.model.js
+│   └── Borrow.model.js
 │
 ├── controllers/
-│ ├── auth.controller.js
-│ ├── book.controller.js
-│ ├── borrow.controller.js
-│ └── report.controller.js
+│   ├── auth.controller.js
+│   ├── book.controller.js
+│   ├── borrow.controller.js
+│   └── report.controller.js
 │
 ├── routes/
-│ ├── auth.routes.js
-│ ├── book.routes.js
-│ ├── borrow.routes.js
-│ └── report.routes.js
+│   ├── auth.routes.js
+│   ├── book.routes.js
+│   ├── borrow.routes.js
+│   └── report.routes.js
 │
 ├── validators/
-│ ├── auth.schema.js
-│ ├── book.schema.js
-│ ├── borrow.schema.js
-│ └── report.schema.js
+│   ├── auth.schema.js
+│   ├── book.schema.js
+│   ├── borrow.schema.js
+│   └── report.schema.js
 │
 ├── middlewares/
-│ ├── auth.middleware.js
-│ ├── role.middleware.js
-│ └── validate.middleware.js
+│   ├── auth.middleware.js
+│   ├── role.middleware.js
+│   └── validate.middleware.js
 │
 ├── graphql/
-│ ├── schema/
-│ ├── resolvers/
-│ └── context.js
+│   ├── schema/
+│   ├── resolvers/
+│   └── context.js
 │
 ├── utils/
-│ └── jwtEncrypt.js
+│   └── jwtEncrypt.js
 │
 └── docs/
-└── swagger.js
+    └── swagger.js
 
-pgsql
-Copy code
 
-This structure keeps responsibilities clearly separated and makes the project easy to extend.
-
+```
 ---
 
 ##  Authentication & Authorization
@@ -100,8 +98,7 @@ This structure keeps responsibilities clearly separated and makes the project ea
 
 Authorization: Bearer <encrypted_token>
 
-yaml
-Copy code
+
 
 ### Authorization
 - **Admin**: Can manage books and view reports
